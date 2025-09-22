@@ -9,15 +9,17 @@ namespace Biblioteca
     class ControlCategoria
     {
         private Categoria categoria;
+        private DAOCategoria dao;
 
         public ControlCategoria()
         {
             categoria = new Categoria();
         }//fim do construtor
 
-        public ControlCategoria(int codigo, string descricao)
+        public ControlCategoria(string descricao)
         {
-            categoria = new Categoria(codigo, descricao);
+            this.dao = new DAOCategoria();
+            this.dao.Inserir(descricao);
         }//fim do construtor
 
         public void Imprimir()

@@ -9,15 +9,17 @@ namespace Biblioteca
     class ControlAutor
     {
         private Autor autor;
+        private DAOAutor dao;
 
         public ControlAutor()
         {
             autor = new Autor();
         }//fim do construtor
 
-        public ControlAutor(int codigo, string nome, string nacionalidade)
+        public ControlAutor(string nome, string nacionalidade)
         {
-            autor = new Autor(codigo, nome, nacionalidade);
+            this.dao = new DAOAutor();
+            this.dao.Inserir(nome, nacionalidade);
         }//fim do construtor
 
         public void Imprimir()

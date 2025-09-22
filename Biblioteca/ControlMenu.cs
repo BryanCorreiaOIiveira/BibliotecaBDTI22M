@@ -103,9 +103,6 @@ namespace Biblioteca
                     case 1:
                         Console.WriteLine("\nCadastrar\n");
                         //Pegar os dados do livro
-                        Console.WriteLine("\nInforme o código do livro: ");
-                        int codigo = Convert.ToInt32(Console.ReadLine());
-
                         Console.WriteLine("\nInforme o ISBN do livro: ");
                         long ISBN = Convert.ToInt64(Console.ReadLine());
 
@@ -119,11 +116,10 @@ namespace Biblioteca
                         string editora = Console.ReadLine();
 
                         Console.WriteLine("\nInforme a Categoria do Livro: ");
-                        int codigoCategoria = Convert.ToInt32(Console.ReadLine());
+                        int categoriaCodigo = Convert.ToInt32(Console.ReadLine());
                         //Chamar o livro
-                        this.controleLivro = new ControlLivro(codigo, ISBN, titulo, ano, editora, codigoCategoria);
+                        this.controleLivro = new ControlLivro(ISBN, titulo, ano, editora, categoriaCodigo);
                         //Finaliza
-                        Console.WriteLine("Cadastrado com sucesso!!!!!!!");
                         break;
                     case 2:
                         Console.WriteLine("\nConsultar");
@@ -170,15 +166,12 @@ namespace Biblioteca
                     case 1:
                         Console.WriteLine("Cadastrar Autor");
                         //Coletando os dados
-                        Console.WriteLine("Informe o código: ");
-                        int codigo = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Informe o nome do autor: ");
                         string nome = Console.ReadLine();
                         Console.WriteLine("Informe a sua nacionalidade: ");
                         string nacionalidade = Console.ReadLine();
                         //Criar o construtor
-                        this.controleAutor = new ControlAutor(codigo, nome, nacionalidade);
-                        Console.WriteLine("Cadastrado com sucesso!");
+                        this.controleAutor = new ControlAutor(nome, nacionalidade);
                         break;
                     case 2:
                         Console.WriteLine("\nConsultar Autor");
@@ -223,13 +216,11 @@ namespace Biblioteca
                     case 1:
                         Console.WriteLine("Cadastrar Categoria");
                         //Solicitar os dados
-                        Console.WriteLine("Informe o código: ");
-                        int codigo = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Informe a descrição: ");
                         string descricao = Console.ReadLine();
                         //Criar a estrutura
-                        this.controleCategoria = new ControlCategoria(codigo, descricao);
-                        Console.WriteLine("Cadastrado com sucesso!");
+                        this.controleCategoria = new ControlCategoria(descricao);
+              
                         break;
                     case 2:
                         Console.WriteLine("Consultar Categoria");

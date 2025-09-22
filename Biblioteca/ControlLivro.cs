@@ -10,16 +10,18 @@ namespace Biblioteca
     {
         //Variáveis que se conectam
         private Livro livro;
-
+        private DAOLivro dao;
         public ControlLivro()
         {
             this.livro = new Livro();//Conecta as classes
+         
         }//fim do construtor
 
-        public ControlLivro(int codigo, long ISBN, string titulo, 
+        public ControlLivro(long ISBN, string titulo, 
                             DateTime ano, string editora, int codigoCategoria)
         {
-            this.livro = new Livro(codigo, ISBN, titulo, ano, editora, codigoCategoria);
+           this.dao = new DAOLivro();//Construtor Vazio - Abertura de conexão com o BD
+           this.dao.Inserir(ISBN, titulo, ano, editora, codigoCategoria);//insere o dado no banco
         }//fim do construtor
 
         public void Imprimir()
