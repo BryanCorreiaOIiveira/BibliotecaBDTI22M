@@ -24,8 +24,18 @@ namespace Biblioteca
 
         public void Imprimir()
         {
-            Console.WriteLine(autor.Imprimir());
+            this.dao = new DAOAutor();
+            Console.WriteLine(this.dao.ConsultarTudo());
         }//fim do imprimir
+
+        public void ConsultarPorCodigo()
+        {
+            this.dao = new DAOAutor();
+            Console.WriteLine("Informe o código que deseja buscar: ");
+            int codigo = Convert.ToInt32(Console.ReadLine());
+            //Pedindo para o usuário digital
+            Console.WriteLine(this.dao.ConsultarPorCodigo(codigo));
+        }//fim do método
 
         public void Atualizar(int opcao, string dado)
         {
