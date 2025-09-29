@@ -115,7 +115,7 @@ namespace Biblioteca
                     return msg;
                 }//fim do if
             }//fim do método
-            return "\n\nCódigo informedo não foi encontrado!";
+            return "\n\nCódigo informado não foi encontrado!";
         }//fim do método
 
         public string Atualizar(int codigo, string campo, string novoDado)
@@ -148,7 +148,6 @@ namespace Biblioteca
                 return $"algo deu errado\n\n {erro}";
             }//fim do catch 
         }//fim do método
-
 
     }// fim do classe
 }// fim do projeto

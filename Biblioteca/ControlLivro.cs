@@ -29,6 +29,15 @@ namespace Biblioteca
             Console.WriteLine(this.livro.Imprimir());
         }//fim do método
 
+        public void ConsultarPorCodigo()
+        {
+            this.dao = new DAOLivro();
+            Console.WriteLine("Informe o código que deseja buscar: ");
+            int codigo = Convert.ToInt32(Console.ReadLine());
+            //Pedindo para o usuário digital
+            Console.WriteLine(this.dao.ConsultarPorCodigo(codigo));
+        }//fim do método
+
         //Método Atualizar
         public void Atualizar(int opcao, string dado)
         {
@@ -55,5 +64,16 @@ namespace Biblioteca
                     break;
             }//fim do switch
         }//fim do método
+
+        public void Excluir()
+        {
+            this.dao = new DAOLivro();
+
+            Console.WriteLine("informe o código que deseja Excluir: ");
+            int código = Convert.ToInt32(Console.ReadLine());
+
+            //Chama o método para excluir
+            Console.WriteLine(this.dao.Deletar(código));
+        }//fim do excluir
     }//fim do classe
 }//fim do projeto Biblioteca

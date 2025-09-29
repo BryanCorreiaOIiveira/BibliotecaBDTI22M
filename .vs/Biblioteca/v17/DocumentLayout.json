@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\biblioteca\\controlautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\controlautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\controllivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\controllivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\biblioteca\\controlcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\controlcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\daocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\daocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\daoautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\daoautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\controlcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\controlcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\controlautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\controlautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\controlmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\biblioteca\\controlmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\controlmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,32 +30,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ControlAutor.cs",
-              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ControlAutor.cs",
-              "RelativeDocumentMoniker": "Biblioteca\\ControlAutor.cs",
-              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ControlAutor.cs",
-              "RelativeToolTip": "Biblioteca\\ControlAutor.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAqwCQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T14:49:42.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DAOAutor.cs",
-              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\DAOAutor.cs",
-              "RelativeDocumentMoniker": "Biblioteca\\DAOAutor.cs",
-              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\DAOAutor.cs",
-              "RelativeToolTip": "Biblioteca\\DAOAutor.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAQwHEAAABtAAAAAAAAAA==",
+              "Title": "ControlLivro.cs",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ControlLivro.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\ControlLivro.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ControlLivro.cs",
+              "RelativeToolTip": "Biblioteca\\ControlLivro.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwEcAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T14:30:34.762Z",
+              "WhenOpened": "2025-09-29T13:53:15.698Z",
               "EditorCaption": ""
             },
             {
@@ -65,6 +52,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ControlAutor.cs",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ControlAutor.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\ControlAutor.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ControlAutor.cs",
+              "RelativeToolTip": "Biblioteca\\ControlAutor.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T14:49:42.56Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -87,20 +87,20 @@
               "RelativeDocumentMoniker": "Biblioteca\\ControlCategoria.cs",
               "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ControlCategoria.cs",
               "RelativeToolTip": "Biblioteca\\ControlCategoria.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACoAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAE8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T11:54:36.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DAOCategoria.cs",
               "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\DAOCategoria.cs",
               "RelativeDocumentMoniker": "Biblioteca\\DAOCategoria.cs",
               "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\DAOCategoria.cs",
               "RelativeToolTip": "Biblioteca\\DAOCategoria.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAqwHkAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAFsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T11:22:17.259Z",
               "EditorCaption": ""

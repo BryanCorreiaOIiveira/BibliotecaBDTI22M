@@ -54,5 +54,15 @@ namespace Biblioteca
                     break;
             }//fim do escolha
         }//fim do método atualizar
+        public void Excluir()
+        {
+            this.dao = new DAOAutor();
+
+            Console.WriteLine("informe o código que deseja Excluir: ");
+            int código = Convert.ToInt32(Console.ReadLine());
+
+            //Chama o método para excluir
+            Console.WriteLine(this.dao.Deletar(código));
+        }//fim do excluir
     }//fim da classe
 }//fim do projeto
