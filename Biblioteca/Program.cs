@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Biblioteca
 {
@@ -10,8 +11,9 @@ namespace Biblioteca
     {       
         static void Main(string[] args)
         {
-            ControlMenu menuPrincipal = new ControlMenu();//Declarando e instanciando uma variável
-            menuPrincipal.ExecutarMenuPrincipal();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Menu());
         }//Fim do método
     }//Fim da classe
 }//Fim do projeto

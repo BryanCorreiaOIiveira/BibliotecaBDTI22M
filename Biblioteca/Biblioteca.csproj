@@ -66,6 +66,7 @@
     <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
     </Reference>
+    <Reference Include="System.Drawing" />
     <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
     </Reference>
@@ -84,6 +85,7 @@
       <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -95,8 +97,68 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AtualizaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtualizaCategoria.Designer.cs">
+      <DependentUpon>AtualizaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtualizaLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtualizaLivro.Designer.cs">
+      <DependentUpon>AtualizaLivro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atualizar.Designer.cs">
+      <DependentUpon>Atualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtualizarLIvro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtualizarLIvro.Designer.cs">
+      <DependentUpon>AtualizarLIvro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Autor.cs" />
+    <Compile Include="CadastrarAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarAutor.Designer.cs">
+      <DependentUpon>CadastrarAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarCategoria.Designer.cs">
+      <DependentUpon>CadastrarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarLivro.Designer.cs">
+      <DependentUpon>CadastrarLivro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Categoria.cs" />
+    <Compile Include="ConsultarAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarAutor.Designer.cs">
+      <DependentUpon>ConsultarAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarCategoria.Designer.cs">
+      <DependentUpon>ConsultarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarLivro.Designer.cs">
+      <DependentUpon>ConsultarLivro.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlAutor.cs" />
     <Compile Include="ControlCategoria.cs" />
     <Compile Include="ControlLivro.cs" />
@@ -104,13 +166,90 @@
     <Compile Include="DAOAutor.cs" />
     <Compile Include="DAOCategoria.cs" />
     <Compile Include="DAOLivro.cs" />
+    <Compile Include="Excluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excluir.Designer.cs">
+      <DependentUpon>Excluir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcluirLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcluirLivro.Designer.cs">
+      <DependentUpon>ExcluirLivro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Livro.cs" />
+    <Compile Include="MenuCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCategoria.Designer.cs">
+      <DependentUpon>MenuCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuLivro.Designer.cs">
+      <DependentUpon>MenuLivro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AtualizaLivro.resx">
+      <DependentUpon>AtualizaLivro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atualizar.resx">
+      <DependentUpon>Atualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarAutor.resx">
+      <DependentUpon>CadastrarAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarCategoria.resx">
+      <DependentUpon>CadastrarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarLivro.resx">
+      <DependentUpon>CadastrarLivro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarAutor.resx">
+      <DependentUpon>ConsultarAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarCategoria.resx">
+      <DependentUpon>ConsultarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarLivro.resx">
+      <DependentUpon>ConsultarLivro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcluirLivro.resx">
+      <DependentUpon>ExcluirLivro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuCategoria.resx">
+      <DependentUpon>MenuCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuLivro.resx">
+      <DependentUpon>MenuLivro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -47,3 +47,6 @@ C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\bin\Debug\System.Nu
 C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.Up2Date
+C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Menu.resources
+C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
