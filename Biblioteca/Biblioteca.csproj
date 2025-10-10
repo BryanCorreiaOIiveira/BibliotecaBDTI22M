@@ -103,23 +103,11 @@
     <Compile Include="AtualizaCategoria.Designer.cs">
       <DependentUpon>AtualizaCategoria.cs</DependentUpon>
     </Compile>
-    <Compile Include="AtualizaLivro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AtualizaLivro.Designer.cs">
-      <DependentUpon>AtualizaLivro.cs</DependentUpon>
-    </Compile>
     <Compile Include="Atualizar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Atualizar.Designer.cs">
       <DependentUpon>Atualizar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AtualizarLIvro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AtualizarLIvro.Designer.cs">
-      <DependentUpon>AtualizarLIvro.cs</DependentUpon>
     </Compile>
     <Compile Include="Autor.cs" />
     <Compile Include="CadastrarAutor.cs">
@@ -210,9 +198,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AtualizaLivro.resx">
-      <DependentUpon>AtualizaLivro.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Atualizar.resx">
       <DependentUpon>Atualizar.cs</DependentUpon>
     </EmbeddedResource>

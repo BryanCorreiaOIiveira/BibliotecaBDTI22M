@@ -64,9 +64,74 @@ namespace Biblioteca
             }//fim do catch
         }
 
+        public string ConsultarISBN(int codigo)
+        {
+            PreencherVetor();
+            for (i = 0; i < contador; i++)
+            { 
+                if (this.codigo[i] == codigo) 
+                {
+                    return ISBN[i] + "";
+                }//fim do if 
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarTitulo(int codigo)
+        {
+            PreencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return titulo[i] + "";
+                }//fim do if 
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarAno(int codigo)
+        {
+            PreencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return ano[i] + "";
+                }//fim do if 
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarEditora(int codigo)
+        {
+            PreencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return editora[i] + "";
+                }//fim do if 
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarCategoriacodigo(int codigo)
+        {
+            PreencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return categoriacodigo[i] + "";
+                }//fim do if 
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
         public void PreencherVetor()
         {
-            String query = "select * from autor";//Comando SQL para acesso aos dados
+            String query = "select * from livro";//Comando SQL para acesso aos dados
             //Instanciar os vetores
             codigo = new int[100];
             ISBN = new long[100];
@@ -78,7 +143,7 @@ namespace Biblioteca
             for (i = 0; i < 100; i++)
             {
                 codigo[i] = 0;
-                ISBN [i] = 0;
+                ISBN[i] = 0;
                 titulo[i] = "";
                 ano[i] = new DateTime();
                 editora[i] = "";
@@ -96,11 +161,11 @@ namespace Biblioteca
             while (leitura.Read())
             {
                 codigo[i] = Convert.ToInt32(leitura["código"]);
-                ISBN[i] = Convert.ToInt32(leitura["ISBN"]);
+                ISBN[i] = Convert.ToInt64(leitura["ISBN"]);
                 titulo[i] = leitura["titulo"] + "";
                 //ano[i] = Convert.ToDatetime(leitura["ano"]);
                 editora[i] = leitura["editora"] + "";
-                categoriacodigo[i] = Convert.ToInt32(leitura["categoriacódigo"]);
+                categoriacodigo[i] = Convert.ToInt32(leitura["categorialcódigo"]);
                 i++;//Ande pelo vetor
                 contador++;//Contar exatamente quantos dados foram inseridos 
             }//fim do while
@@ -108,6 +173,11 @@ namespace Biblioteca
             //fechar a leitura 
             leitura.Close();
         }//fim do preencher
+
+        public int QuantidadeDeDados()
+        {
+            return contador;
+        }//fim do método 
 
         public string ConsultarTudo()
         {

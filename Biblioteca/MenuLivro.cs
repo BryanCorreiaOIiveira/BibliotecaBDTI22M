@@ -36,7 +36,7 @@ namespace Biblioteca
 
         private void button3_Click(object sender, EventArgs e)
         {
-            AtualizaLivro atualizaLivro = new AtualizaLivro();
+            Atualizar atualizaLivro = new Atualizar();
             atualizaLivro.ShowDialog();
         }//Atulizar
 
