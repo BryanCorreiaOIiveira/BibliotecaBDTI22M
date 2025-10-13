@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Google.Protobuf.WellKnownTypes;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -101,6 +102,32 @@ namespace Biblioteca
                 msg += $"\nCódigo: {codigo[i]} \n nome: {nome[i]}\n nacionalidade {nacionalidade[i]}";
             }//fim
             return msg;
+        }//fim do método
+
+        public string ConsultarNome(int codigo)
+        {
+            PreencherVetor();
+            for (i = 0; i < contador; i++)
+            { 
+                if (this.codigo[i] == codigo)
+                {
+                    return nome[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarNaciolidade(int codigo)
+        {
+            PreencherVetor();
+            for (i = 0;i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return nacionalidade[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Código não existe!";
         }//fim do método
 
         public string ConsultarPorCodigo(int codigo)

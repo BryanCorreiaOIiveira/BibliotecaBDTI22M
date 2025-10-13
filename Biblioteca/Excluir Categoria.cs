@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Biblioteca
 {
-    public partial class AtualizaCategoria : Form
+    public partial class Excluir_Categoria : Form
     {
-        public AtualizaCategoria()
+        public Excluir_Categoria()
         {
             InitializeComponent();
         }
@@ -22,24 +22,14 @@ namespace Biblioteca
 
         }//Código
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }//Atualizar
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }//Nome
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }//Voltar
-
         private void button1_Click(object sender, EventArgs e)
         {
 
-        }//Buscar
+        }//Excluir
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }//Voltar
     }
 }

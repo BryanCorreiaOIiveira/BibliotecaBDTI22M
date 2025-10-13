@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Biblioteca
 {
-    public partial class AtualizaCategoria : Form
+    public partial class Atualizar_Autor : Form
     {
-        public AtualizaCategoria()
+        public Atualizar_Autor()
         {
             InitializeComponent();
         }
@@ -22,24 +22,32 @@ namespace Biblioteca
 
         }//Código
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }//Atualizar
-
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }//Nome
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }//nacionalidade
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }//Buscar
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }//Atualizar
 
         private void button3_Click(object sender, EventArgs e)
         {
 
         }//Voltar
 
-        private void button1_Click(object sender, EventArgs e)
-        {
+        
 
-        }//Buscar
     }
 }
