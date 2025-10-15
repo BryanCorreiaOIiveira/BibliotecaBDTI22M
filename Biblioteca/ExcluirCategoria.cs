@@ -10,31 +10,31 @@ using System.Windows.Forms;
 
 namespace Biblioteca
 {
-    public partial class CadastrarAutor : Form
+    public partial class ExcluirCategoria : Form
     {
-        public CadastrarAutor()
+        public ExcluirCategoria()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
-        }//Nome
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }//nacionalidade
+        }//código
 
         private void button1_Click(object sender, EventArgs e)
         {
 
-        }//Cadastrar
+        }//Excluir
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
-        }//voltar
+
+        }//Voltar
     }
 }

@@ -103,11 +103,17 @@
     <Compile Include="AtualizaCategoria.Designer.cs">
       <DependentUpon>AtualizaCategoria.cs</DependentUpon>
     </Compile>
-    <Compile Include="Atualizar.cs">
+    <Compile Include="AtualizarAutor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Atualizar.Designer.cs">
-      <DependentUpon>Atualizar.cs</DependentUpon>
+    <Compile Include="AtualizarAutor.Designer.cs">
+      <DependentUpon>AtualizarAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtualizarLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtualizarLivro.Designer.cs">
+      <DependentUpon>AtualizarLivro.cs</DependentUpon>
     </Compile>
     <Compile Include="Autor.cs" />
     <Compile Include="CadastrarAutor.cs">
@@ -154,11 +160,17 @@
     <Compile Include="DAOAutor.cs" />
     <Compile Include="DAOCategoria.cs" />
     <Compile Include="DAOLivro.cs" />
-    <Compile Include="Excluir.cs">
+    <Compile Include="ExcluirAutor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Excluir.Designer.cs">
-      <DependentUpon>Excluir.cs</DependentUpon>
+    <Compile Include="ExcluirAutor.Designer.cs">
+      <DependentUpon>ExcluirAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcluirCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcluirCategoria.Designer.cs">
+      <DependentUpon>ExcluirCategoria.cs</DependentUpon>
     </Compile>
     <Compile Include="ExcluirLivro.cs">
       <SubType>Form</SubType>
@@ -173,6 +185,12 @@
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Livro.cs" />
+    <Compile Include="MenuAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAutor.Designer.cs">
+      <DependentUpon>MenuAutor.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,8 +216,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Atualizar.resx">
-      <DependentUpon>Atualizar.cs</DependentUpon>
+    <EmbeddedResource Include="AtualizarAutor.resx">
+      <DependentUpon>AtualizarAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtualizarLivro.resx">
+      <DependentUpon>AtualizarLivro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CadastrarAutor.resx">
       <DependentUpon>CadastrarAutor.cs</DependentUpon>
@@ -219,11 +240,20 @@
     <EmbeddedResource Include="ConsultarLivro.resx">
       <DependentUpon>ConsultarLivro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ExcluirAutor.resx">
+      <DependentUpon>ExcluirAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcluirCategoria.resx">
+      <DependentUpon>ExcluirCategoria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ExcluirLivro.resx">
       <DependentUpon>ExcluirLivro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAutor.resx">
+      <DependentUpon>MenuAutor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuCategoria.resx">
       <DependentUpon>MenuCategoria.cs</DependentUpon>

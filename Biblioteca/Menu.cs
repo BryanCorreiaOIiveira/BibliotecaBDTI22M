@@ -24,18 +24,20 @@ namespace Biblioteca
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MenuLivro menuLivro = new MenuLivro();
+            menuLivro.ShowDialog();
         }//Botão Livro
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MenuLivro menuLivro = new MenuLivro();
-            menuLivro.ShowDialog();
+            MenuAutor menuAutor = new MenuAutor();
+            menuAutor.ShowDialog();
         }//Botão Autor
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            MenuCategoria menuCtegoria = new MenuCategoria();
+            menuCtegoria.ShowDialog();
         }//Botão Categoria
     }//fim da classe
 }//fim do projeto

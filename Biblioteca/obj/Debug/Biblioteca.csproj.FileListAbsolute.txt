@@ -50,7 +50,6 @@ C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Bibliotec
 C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Menu.resources
 C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
 C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
-C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Atualizar.resources
 C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.CadastrarAutor.resources
 C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.CadastrarCategoria.resources
 C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.CadastrarLivro.resources
@@ -60,3 +59,8 @@ C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Bibliotec
 C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.ExcluirLivro.resources
 C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.MenuCategoria.resources
 C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.MenuLivro.resources
+C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.AtualizarAutor.resources
+C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.AtualizarLivro.resources
+C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.ExcluirAutor.resources
+C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.ExcluirCategoria.resources
+C:\Users\bryan.hcoliveira\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.MenuAutor.resources

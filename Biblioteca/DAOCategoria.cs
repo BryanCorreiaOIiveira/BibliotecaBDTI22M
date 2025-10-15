@@ -46,8 +46,7 @@ namespace Biblioteca
             {
                 dados = $"('','{descricao}')";
                 comando = $"Insert into categoria(código, descricao) values{dados}";
-
-
+                //Lançar os dados no banco
                 MySqlCommand sql = new MySqlCommand(comando, conexao);
                 string resultado = "" + sql.ExecuteNonQuery();// Comando de inserção/ações
                 Console.WriteLine($"Inserido com sucesso!) {resultado}");//Visualiação do resultado

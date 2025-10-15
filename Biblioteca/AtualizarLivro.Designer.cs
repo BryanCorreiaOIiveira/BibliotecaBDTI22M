@@ -1,6 +1,6 @@
 ﻿namespace Biblioteca
 {
-    partial class Atualizar
+    partial class AtualizarLivro
     {
         /// <summary>
         /// Required designer variable.

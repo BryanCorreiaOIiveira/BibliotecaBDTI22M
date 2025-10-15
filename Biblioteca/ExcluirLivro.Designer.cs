@@ -37,7 +37,8 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(339, 270);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(108, 333);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(168, 51);
             this.button2.TabIndex = 9;
@@ -47,7 +48,8 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(339, 177);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(108, 257);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(168, 54);
             this.button1.TabIndex = 8;
@@ -57,7 +59,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(339, 121);
+            this.textBox1.Location = new System.Drawing.Point(108, 123);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(168, 20);
             this.textBox1.TabIndex = 7;
@@ -66,7 +68,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(280, 129);
+            this.label2.Location = new System.Drawing.Point(49, 131);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 6;
@@ -75,9 +77,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(336, 61);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(133, 68);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 13);
+            this.label1.Size = new System.Drawing.Size(118, 24);
             this.label1.TabIndex = 5;
             this.label1.Text = "Excluir  Livro";
             // 
@@ -85,7 +88,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(382, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);

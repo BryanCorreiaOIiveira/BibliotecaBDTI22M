@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Biblioteca
 {
-    public partial class Atualizar : Form
+    public partial class AtualizarLivro : Form
     {
         DAOLivro dao;
-        public Atualizar()
+        public AtualizarLivro()
         {
             InitializeComponent();
             dao = new DAOLivro();
@@ -76,7 +76,7 @@ namespace Biblioteca
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }//botão voltar
 
         private void button8_Click(object sender, EventArgs e)

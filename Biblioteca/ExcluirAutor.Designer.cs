@@ -1,6 +1,6 @@
 ﻿namespace Biblioteca
 {
-    partial class Excluir
+    partial class ExcluirAutor
     {
         /// <summary>
         /// Required designer variable.
@@ -38,16 +38,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(302, 37);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(84, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 13);
+            this.label1.Size = new System.Drawing.Size(134, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Excluir  Livro";
+            this.label1.Text = "Excluir Autor";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(246, 105);
+            this.label2.Location = new System.Drawing.Point(86, 105);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 1;
@@ -55,16 +56,18 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(305, 97);
+            this.textBox1.Location = new System.Drawing.Point(135, 102);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(168, 20);
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(305, 153);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(52, 204);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(168, 54);
+            this.button1.Size = new System.Drawing.Size(218, 34);
             this.button1.TabIndex = 3;
             this.button1.Text = "Excluir";
             this.button1.UseVisualStyleBackColor = true;
@@ -72,26 +75,27 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(305, 246);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(52, 244);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(168, 51);
+            this.button2.Size = new System.Drawing.Size(218, 35);
             this.button2.TabIndex = 4;
             this.button2.Text = "Voltar";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Excluir
+            // ExcluirAutor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(322, 457);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Excluir";
-            this.Text = "Excluir";
+            this.Name = "ExcluirAutor";
+            this.Text = "ExcluirAutor";
             this.ResumeLayout(false);
             this.PerformLayout();
 

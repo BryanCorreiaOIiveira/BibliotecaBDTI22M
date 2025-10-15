@@ -1,4 +1,4 @@
-﻿using Google.Protobuf.WellKnownTypes;
+﻿
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -21,7 +21,7 @@ namespace Biblioteca
         public string msg;
         public DAOAutor()
         {
-            //Connectar com banco
+            //Conectar com banco
             conexao = new MySqlConnection("server=localhost;DataBase=biblioteca;Uid=root;Password=;Convert Zero DateTime=True");
             try
             {
@@ -143,6 +143,32 @@ namespace Biblioteca
                 }//fim do if
             }//fim do método
             return "\n\nCódigo informado não foi encontrado!";
+        }//fim do método
+
+        public string ConsultaNome(int codigo)
+        {
+            PreencherVetor();
+            for(i =0; i < contador; i++)
+            {
+                if(this.codigo[i] == codigo)
+                {
+                    return nome[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarNacionalidade(int codigo)
+        {
+            PreencherVetor();
+            for (i =0;i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return nacionalidade[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Código não existe!";
         }//fim do método
 
         public string Atualizar(int codigo, string campo, string novoDado)

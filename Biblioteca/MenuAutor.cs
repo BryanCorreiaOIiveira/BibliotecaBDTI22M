@@ -10,40 +10,35 @@ using System.Windows.Forms;
 
 namespace Biblioteca
 {
-    public partial class MenuLivro : Form
+    public partial class MenuAutor : Form
     {
-        public MenuLivro()
+        public MenuAutor()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            CadastrarLivro cadastrarLivro = new CadastrarLivro();
-            cadastrarLivro.ShowDialog();
+            CadastrarAutor cadastrarAutor = new CadastrarAutor();
+            cadastrarAutor.ShowDialog();
         }//Cadastrar
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ConsultarLivro consultarLivro = new ConsultarLivro();
-            consultarLivro.ShowDialog();
+            ConsultarAutor consultarAutor = new ConsultarAutor();
+            consultarAutor.ShowDialog();
         }//Consultar
 
         private void button3_Click(object sender, EventArgs e)
         {
-            AtualizarLivro atualizaLivro = new AtualizarLivro();
-            atualizaLivro.ShowDialog();
-        }//Atulizar
+            AtualizarAutor atualizar = new AtualizarAutor();
+            atualizar.ShowDialog();
+        }//Atualizar
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ExcluirLivro excluirLivro = new ExcluirLivro();
-            excluirLivro.ShowDialog();
+            ExcluirAutor excluir = new ExcluirAutor();
+            excluir.ShowDialog();
         }//Excluir
     }
 }

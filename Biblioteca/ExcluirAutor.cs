@@ -10,21 +10,26 @@ using System.Windows.Forms;
 
 namespace Biblioteca
 {
-    public partial class Excluir : Form
+    public partial class ExcluirAutor : Form
     {
-        public Excluir()
+        public ExcluirAutor()
         {
             InitializeComponent();
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }//Código
+
         private void button1_Click(object sender, EventArgs e)
         {
 
-        }
+        }//Excluir
 
         private void button2_Click(object sender, EventArgs e)
         {
 
-        }
+        }//Voltar
     }
 }
