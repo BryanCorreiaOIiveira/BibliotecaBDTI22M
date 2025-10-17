@@ -34,12 +34,12 @@ namespace Biblioteca
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }//Voltar
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            
         }//Buscar
-    }
-}
+    }//fim da classe
+}//fim do projeto

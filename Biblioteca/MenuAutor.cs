@@ -19,14 +19,14 @@ namespace Biblioteca
 
         private void button1_Click(object sender, EventArgs e)
         {
-            CadastrarAutor cadastrarAutor = new CadastrarAutor();
-            cadastrarAutor.ShowDialog();
+            CadastrarAutor cadastrar = new CadastrarAutor();
+            cadastrar.ShowDialog();
         }//Cadastrar
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ConsultarAutor consultarAutor = new ConsultarAutor();
-            consultarAutor.ShowDialog();
+            ConsultarAutor consultar = new ConsultarAutor();
+            consultar.ShowDialog();
         }//Consultar
 
         private void button3_Click(object sender, EventArgs e)

@@ -4,6 +4,7 @@ using System.IO.Pipes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Microsoft.SqlServer.Server;
 using MySql.Data;//Import do MySQL
 using MySql.Data.MySqlClient; //Import do MySql - Com métodos do crud
@@ -60,9 +61,9 @@ namespace Biblioteca
             }
             catch (Exception erro)
             {
-                Console.WriteLine($"Algo deu Errado!\n\n {erro}");
+                MessageBox.Show($"Algo deu Errado!\n\n {erro}");
             }//fim do catch
-        }
+        }//fim do inserir
 
         public string ConsultarISBN(int codigo)
         {

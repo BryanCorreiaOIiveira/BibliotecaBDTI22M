@@ -29,7 +29,26 @@ namespace Biblioteca
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                //coletar os dados
+                string Nome = textBox1.Text;
+                string nacionalidade = textBox2.Text;
+                //Cadastrar no Banco de Dados
+                ControlAutor controlAutor = new ControlAutor(
+                                                   Nome,
+                                                   nacionalidade);
+                //Confirmar que foi inserido
+                MessageBox.Show($"cadastrado com sucesso!!! \n\n\nome: {Nome}" +
+                                                        $"\nnacionalidade: {nacionalidade}");
+                //Limpar os campos após cadastro
+                textBox1.Text = "";
+                textBox2.Text = "";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Algo deu errado!!!! \n\n{ex}");
+            }
         }//Cadastrar
 
         private void button2_Click(object sender, EventArgs e)

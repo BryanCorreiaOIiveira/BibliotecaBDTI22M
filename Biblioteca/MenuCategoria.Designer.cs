@@ -44,7 +44,6 @@
             this.label1.Size = new System.Drawing.Size(240, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "Menu Categoria";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 

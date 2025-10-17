@@ -42,8 +42,7 @@ namespace Biblioteca
             {
                 dados = $"('','{nome}','{nacionalidade}')";
                 comando = $"Insert into autor(código, nome, nacionalidade) values{dados}";
-
-
+                //Lançar os dados no banco
                 MySqlCommand sql = new MySqlCommand(comando, conexao);
                 string resultado = "" + sql.ExecuteNonQuery();// Comando de inserção/ações
                 Console.WriteLine($"Inserido com sucesso!) {resultado}");//Visualiação do resultado
@@ -52,12 +51,12 @@ namespace Biblioteca
             {
                 Console.WriteLine($"Algo deu Errado!\n\n {erro}");
             }//fim do catch
-        }
+        }//fim do inserir
 
         //método para preencher o vetor
         public void PreencherVetor()
         {
-            String query = "select * from autor";//Comando SQL para acesso aos dados
+            string query = "select * from autor";//Comando SQL para acesso aos dados
             //Instanciar os vetores
             codigo = new int[100];
             nome = new string[100];
@@ -103,7 +102,7 @@ namespace Biblioteca
             }//fim
             return msg;
         }//fim do método
-
+        
         public string ConsultarNome(int codigo)
         {
             PreencherVetor();
@@ -130,6 +129,10 @@ namespace Biblioteca
             return "Código não existe!";
         }//fim do método
 
+        public int QuantidadeDeDados()
+        {
+            return contador;
+        }//fim do método
         public string ConsultarPorCodigo(int codigo)
         {
             PreencherVetor();
@@ -201,8 +204,5 @@ namespace Biblioteca
                 return $"algo deu errado\n\n {erro}";
             }//fim do catch 
         }//fim do método
-
     }// fim do classe
 }// fim do projeto
-
-

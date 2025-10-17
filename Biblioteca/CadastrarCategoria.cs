@@ -19,8 +19,22 @@ namespace Biblioteca
 
         private void label1_Click(object sender, EventArgs e)
         {
-
-        }
+            try
+            {
+                //coletar os dado
+                string descricao = textBox1.Text;
+                //cadastar no banco de dados
+                ControlCategoria ControlCategoria = new ControlCategoria(descricao);
+                //confirmar que foi inserido
+                MessageBox.Show($"cadastrando com sucesso!!! \n\n\nDescrição: {descricao}");
+                //Limpar os campos após cadastro
+                textBox1.Text = "";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Algo deu errado!!!! \n\n{ex}");
+            }
+        }//cadastrar categoria
 
         private void CadastrarCategoria_Load(object sender, EventArgs e)
         {
@@ -39,21 +53,22 @@ namespace Biblioteca
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }//voltar
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            try { 
+            try
+            { 
                 string descricao = textBox1.Text;
 
-            //Cadastrar no Banco de Dados
+                //Cadastrar no Banco de Dados
                 ControlCategoria controlCategoria = new ControlCategoria(descricao);
 
-            //Confirmar que foi inserido
+                //Confirmar que foi inserido
                 MessageBox.Show($"Cadastrado com sucesso!!! \ndescricao: {descricao}");
 
-            //Limpar os Campos após Cadastro
+                //Limpar os Campos após Cadastro
                 textBox1 .Text = "";
 
             }catch(Exception ex)

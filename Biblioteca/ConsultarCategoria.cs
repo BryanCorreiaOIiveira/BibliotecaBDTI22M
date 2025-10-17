@@ -16,5 +16,18 @@ namespace Biblioteca
         {
             InitializeComponent();
         }
-    }
-}
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }//Volta
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+
+
+    }//fim da classe
+}//fim do projeto
