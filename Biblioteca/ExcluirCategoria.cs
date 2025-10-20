@@ -12,9 +12,11 @@ namespace Biblioteca
 {
     public partial class ExcluirCategoria : Form
     {
+        DAOCategoria dao;
         public ExcluirCategoria()
         {
             InitializeComponent();
+            dao = new DAOCategoria();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -29,12 +31,13 @@ namespace Biblioteca
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            int codigo = Convert.ToInt32(textBox1.Text);
+            MessageBox.Show(dao.Deletar(codigo));
         }//Excluir
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
         }//Voltar
-    }
-}
+    }//fim da classe
+}//fim do Projeto

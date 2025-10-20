@@ -92,6 +92,10 @@ namespace Biblioteca
             leitura.Close();
         }//fim do preencher
 
+        public int QuantidadeDeDados()
+        {
+            return contador;
+        }//fim do método
         public string ConsultarTudo()
         {
             //preencher o vetor
@@ -116,7 +120,7 @@ namespace Biblioteca
                     return msg;
                 }//fim do if
             }//fim do método
-            return "\n\nCódigo informedo não foi encontrado!";
+            return "\n\nCódigo informado não foi encontrado!";
         }//fim do método
         //PAREI AQUI -------------------------------------------------- 24/09/2025
         public string Atualizar(int codigo, string campo, string novoDado) 

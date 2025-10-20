@@ -12,10 +12,12 @@ namespace Biblioteca
 {
     public partial class AtualizaCategoria : Form
     {
+        DAOCategoria dao;
         public AtualizaCategoria()
         {
             InitializeComponent();
-        }
+            dao = new DAOCategoria();
+        }//fim do construtor
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -24,7 +26,15 @@ namespace Biblioteca
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            //Pegar os dados
+            string descriçao = textBox2.Text;
+            //Atualizar
+            int codigo = Convert.ToInt32(textBox1.Text);
+            dao.Atualizar(codigo, "descriçao", descriçao);
+            //Mensagem
+            MessageBox.Show("Atualizado com sucesso!");
+            textBox1.Text = "";
+            textBox2.Text = "";
         }//Atualizar
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -39,7 +49,8 @@ namespace Biblioteca
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            int codigo = Convert.ToInt32(textBox1.Text);
+            textBox2.Text = dao.ConsultarPorCodigo(codigo);
         }//Buscar
     }//fim da classe
 }//fim do projeto

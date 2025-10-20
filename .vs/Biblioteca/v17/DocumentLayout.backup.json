@@ -1,7 +1,72 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\excluircategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\excluircategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\excluircategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\excluircategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\atualizacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\atualizacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\atualizacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\atualizacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\atualizarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\atualizarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\atualizarautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\atualizarautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\daocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\daocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\atualizarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\atualizarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\cadastrarautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\cadastrarautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\cadastrarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\cadastrarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\cadastrarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\cadastrarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\consultarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\consultarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\biblioteca\\consultarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\consultarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\consultarautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\consultarautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\consultarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\consultarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|c:\\users\\bryan.hcoliveira\\source\\repos\\biblioteca\\biblioteca\\consultarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63984D6E-B200-4C96-B2D8-230ACD247689}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\consultarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +83,204 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExcluirCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ExcluirCategoria.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\ExcluirCategoria.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ExcluirCategoria.cs",
+              "RelativeToolTip": "Biblioteca\\ExcluirCategoria.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwCoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:28:46.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExcluirCategoria.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ExcluirCategoria.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\ExcluirCategoria.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ExcluirCategoria.cs [Design]",
+              "RelativeToolTip": "Biblioteca\\ExcluirCategoria.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:28:44.313Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AtualizarLivro.cs",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\AtualizarLivro.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\AtualizarLivro.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\AtualizarLivro.cs",
+              "RelativeToolTip": "Biblioteca\\AtualizarLivro.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:04:41.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AtualizaCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\AtualizaCategoria.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\AtualizaCategoria.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\AtualizaCategoria.cs",
+              "RelativeToolTip": "Biblioteca\\AtualizaCategoria.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:03:03.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AtualizaCategoria.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\AtualizaCategoria.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\AtualizaCategoria.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\AtualizaCategoria.cs [Design]",
+              "RelativeToolTip": "Biblioteca\\AtualizaCategoria.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:02:49.686Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AtualizarAutor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\AtualizarAutor.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\AtualizarAutor.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\AtualizarAutor.cs [Design]",
+              "RelativeToolTip": "Biblioteca\\AtualizarAutor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:02:45.774Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AtualizarLivro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\AtualizarLivro.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\AtualizarLivro.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\AtualizarLivro.cs [Design]",
+              "RelativeToolTip": "Biblioteca\\AtualizarLivro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:02:44.204Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DAOCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\DAOCategoria.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\DAOCategoria.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\DAOCategoria.cs",
+              "RelativeToolTip": "Biblioteca\\DAOCategoria.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAqwH0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:28:07.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CadastrarCategoria.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\CadastrarCategoria.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\CadastrarCategoria.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\CadastrarCategoria.cs [Design]",
+              "RelativeToolTip": "Biblioteca\\CadastrarCategoria.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:02:39.339Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CadastrarLivro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\CadastrarLivro.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\CadastrarLivro.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\CadastrarLivro.cs [Design]",
+              "RelativeToolTip": "Biblioteca\\CadastrarLivro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:02:37.975Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConsultarAutor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ConsultarAutor.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\ConsultarAutor.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ConsultarAutor.cs [Design]",
+              "RelativeToolTip": "Biblioteca\\ConsultarAutor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:02:26.183Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConsultarLivro.cs",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ConsultarLivro.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\ConsultarLivro.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ConsultarLivro.cs",
+              "RelativeToolTip": "Biblioteca\\ConsultarLivro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:11:52.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConsultarLivro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ConsultarLivro.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\ConsultarLivro.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ConsultarLivro.cs [Design]",
+              "RelativeToolTip": "Biblioteca\\ConsultarLivro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:11:48.617Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CadastrarAutor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\CadastrarAutor.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\CadastrarAutor.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\CadastrarAutor.cs [Design]",
+              "RelativeToolTip": "Biblioteca\\CadastrarAutor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:38:52.839Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConsultarCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ConsultarCategoria.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\ConsultarCategoria.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ConsultarCategoria.cs",
+              "RelativeToolTip": "Biblioteca\\ConsultarCategoria.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T14:41:19.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConsultarCategoria.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ConsultarCategoria.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\ConsultarCategoria.cs",
+              "ToolTip": "C:\\Users\\bryan.hcoliveira\\source\\repos\\Biblioteca\\Biblioteca\\ConsultarCategoria.cs [Design]",
+              "RelativeToolTip": "Biblioteca\\ConsultarCategoria.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T14:41:18.724Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
